@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bookmarks</title>
 <style>
 body {
@@ -13,18 +14,13 @@ body {
 }
 main {
   max-width: 37rem;
+  margin: 1.5rem;
 }
-h1 {
-  font-weight: normal;
-  text-align: center;
-  font-size: 18pt;
-  line-height: 24pt;
-  letter-spacing: 1px;
-  margin: 0.5em 0 1em 0;
-  font-weight: normal;
-  font-size: 16pt;
-  line-height: 24pt;
-  margin: 2em 0 1em 0;
+@media (max-width: 600px) {
+  body {
+    font-size: 16pt;
+    line-height: 26pt;
+  }
 }
 </style>
 </head>
